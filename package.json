@@ -1,0 +1,52 @@
+{
+  "name": "slider",
+  "version": "0.1.0",
+  "description": "Script that implements the slider functionality",
+  "main": "dist/slider.js",
+  "private": true,
+  "scripts": {
+    "start": "gulp default",
+    "build": "gulp build",
+    "prod": "gulp prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Aleksandr Bosikov | ArtificialMan",
+    "email": "legionerab3000@yandex.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/ArtificialMan3000/slider/issues",
+    "email": "legionerab3000@yandex.ru"
+  },
+  "license": "",
+  "browserslist": [
+    "last 2 versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.4",
+    "core-js": "^3.16.0",
+    "eslint": "^7.32.0",
+    "eslint-config-htmlacademy": "^4.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.37.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-htmlacademy": "^0.1.10",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-stream": "^6.1.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
